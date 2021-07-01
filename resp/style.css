@@ -1,0 +1,130 @@
+.body{
+    font-size: 1.1em;
+    text-align: center;
+    color: #fff;
+    background:#333;
+    margin: 0;
+    line-height: 1.5em;
+
+}
+.wall{
+    position: absolute;
+    width: 100%;
+    height:450px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background:#333 url(https://static.pexels.com/photos/248515/pexels-photo-248515.png);
+    opacity: 0.2;
+    z-index:-1em;
+}
+
+.he h1{
+font-size: 3em;
+color: white;
+padding-top: 2%;
+padding-bottom: 3%;
+display:block;
+}
+.he{
+    color: white;
+    background:#333;
+    text-align: center;
+
+
+}
+.he p{
+    justify-self: center;
+    font-size: 2em;
+    display: block;
+    padding-left:20% ;
+    padding-right: 20%;
+    
+}
+.but{
+    padding-bottom: 3.2em;
+}
+.but button{
+    background: #333;
+}
+
+.a{
+    color: #333;
+    text-align: center;
+}
+.a h3{
+padding-top:1em ;
+font-size: 2em;
+padding-bottom: 1em;
+}
+.a p{
+    margin-left: 15%;
+    margin-right: 15%;
+    font-size: 1.5em;
+    columns: 2;
+    column-gap: 2em;
+}
+.b{
+    padding-top: 2em;
+    padding-bottom: 2em;
+    background-color: rgb(59, 58, 58);
+    columns: 3;
+    column-gap: 1em;
+    padding-left: 20%;
+    padding-right: 20%;
+   justify-self: center;
+}
+
+.c{
+    background-color: white;
+    color: #333;
+    text-align: center;
+}
+.c p{
+    font-size: 1.25em;
+    padding-top: .8em;
+    padding-right: 20%;
+    padding-left: 20%;
+}
+.d{
+    columns: 2;
+    column-gap: 0;
+
+}
+
+
+.da{
+    background-color: rgb(71, 71, 212);
+    color: white;
+    text-align: center;
+    padding-top: 8%;
+    padding-bottom: 8%;
+    padding-left: 7%;
+    padding-right: 7%;
+}
+.da p{
+    padding-top: 2em;
+}
+
+.db p{
+    padding-top: 2em;
+}
+.db{
+    padding-left: 7%;
+    padding-right: 7%;
+    padding-top: 8%;
+    padding-bottom: 8%;
+    background-color:rgb(59, 58, 58);
+    color: white;
+    text-align: center;
+}
+.end{
+    background-color:black;
+    color: white;
+    display:flex;
+    height: 2em;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 3em;
+    
+}
